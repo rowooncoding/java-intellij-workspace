@@ -3,10 +3,16 @@ package inheritance;
 import java.math.BigDecimal;
 
 public class Employee extends Person {
+
     private String title;
     private String employerName;
     private char employeeGrade;
     private BigDecimal salary;
+
+    public Employee(String name, String title) {
+        super(name);
+        this.title = title;
+    }
 
     public String getTitle() {
         return title;
