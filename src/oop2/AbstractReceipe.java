@@ -1,6 +1,6 @@
 package oop2;
 
-public class AbstractReceipe {public void execute() {
+public abstract class AbstractReceipe {public void execute() {
     getReady();
     doTheDish();
     cleanUp();
