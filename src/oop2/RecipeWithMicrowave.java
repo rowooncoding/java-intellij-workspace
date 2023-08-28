@@ -10,7 +10,8 @@ public class RecipeWithMicrowave extends AbstractReceipe {
 
     @Override
     void doTheDish() {
-        System.out.println("do the dish");
+        System.out.println("get stuff ready");
+        System.out.println("Put it in the microwave");
 
     }
 
