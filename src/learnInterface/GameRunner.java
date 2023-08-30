@@ -6,6 +6,7 @@ public class GameRunner {
         GamingConsole marioGame = new MarioGame();
         GamingConsole chessGame = new ChessGame();
 
+        // git 연습용 주석
         marioGame.up(); // Jump
         marioGame.down(); // Goes into a hole
         marioGame.right(); // Go Forward
